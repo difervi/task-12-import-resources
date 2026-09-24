@@ -1,5 +1,5 @@
 resource "aws_iam_policy" "custom_policy" {
-  name = "cmtr-uad9vkoz-iam-policy"
+  name        = "cmtr-uad9vkoz-iam-policy"
   description = "Custom role with limited permissions"
   policy = jsonencode({
     Version = "2012-10-17"
